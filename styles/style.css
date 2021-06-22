@@ -1,16 +1,29 @@
 body {
-	background: #eee;
+  background: #eee;
 }
 
 .container {
-	background: #fff;
+  background: #fff;
 }
 
 .navbar-brand img {
-	width: auto;
-	max-height: 40px;
+  width: auto;
+  max-height: 40px;
 }
 
 /**
  * Add your styles below
  */
+
+.card {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+@media (min-width: "900px") {
+  .col {
+    display: flex;
+    flex-direction: row;
+  }
+}
